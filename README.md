@@ -7,4 +7,4 @@
     > - [Tampermonkey for Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)<br>
     > - [Userscripts for Safari (MacOS/iOS/iPadOS)](https://apps.apple.com/us/app/userscripts/id1463298887)<br>
 
-2. Install **Simple YouTube Age Restriction Bypass** by clicking **[this link](../../raw/main/path-generator.user.js)**.
+2. Install **Jedipedia JSON Downloader** by clicking **[this link](../../raw/main/path-generator.user.js)**.
