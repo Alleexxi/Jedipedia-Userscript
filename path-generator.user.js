@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      2024-12-29
 // @description  try to take over the world!
-// @author       You
+// @author       ChatGPT, viewmatrix
 // @match        https://swtor.jedipedia.net/en/npc/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=jedipedia.net
 // @grant        none
@@ -35,6 +35,7 @@ const SlotName = {
 }
 
 const Derived = {
+    2: "Creature",
     5: "Eye",
     6: "Garment",
     11: "SkinB"
@@ -245,7 +246,7 @@ function gen_paths_json() {
                 }
                 
                 // Special case for head slot - add eye material info
-                if (slotName === "head" && (slot.mats["1"] || slot.mats["eye"])) {
+                if ((slotName === "head" || slotName === "creature") && (slot.mats["1"] || slot.mats["eye"])) {
                     const eyeMatKey = slot.mats["1"] || slot.mats["eye"];
                     const eyeMat = mats_data[eyeMatKey];
                     
