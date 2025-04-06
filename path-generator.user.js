@@ -38,6 +38,7 @@ const Derived = {
     2: "Creature",
     5: "Eye",
     6: "Garment",
+    9: "HairC",
     11: "SkinB"
 }
 
