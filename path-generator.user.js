@@ -90,8 +90,8 @@ function gen_skinMats() {
 
         // Get the derived type name
         const derivedType = mat.derived ? (Derived[mat.derived] || "Unknown") : "Unknown";
-
-        if (derivedType === "SkinB") {
+        
+        if (derivedType === "SkinB" || derivedType === "HairC") {
             const matEntry = {
                 "slotName": slotName,
                 "materialInfo": {
